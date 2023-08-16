@@ -1,0 +1,4 @@
+.disabled_button {
+	text-decoration-line: line-through;
+	color: darkgray;
+}
