@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+
+#navBar {
+	position: sticky;
+	top: 0;
+	display: flex;
+	border-bottom: 1px solid white;
+	justify-content: space-around;
+	align-items: center;
+	height: 4em;
+	background-color: #00000080;
+	backdrop-filter: blur(5px);
+}
+
+#navBar a {
+	color: white;
+	text-decoration: none;
+}
+
+#navBar a:hover {
+	text-decoration: underline;
+}
+
+.navBarSelected {
+	font-weight: bolder;
+}
+
+#navBarMain {
+	font-size: larger;
+	font-weight: bold;
+}
+
+main {
+	margin: 8px;
+}
+
+a {
+	color: aqua;
+}
+
+a.button {
+	background-color: #2D65BC;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+a.button:hover {
+	filter: brightness(1.5);
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	column-gap: 24px;
+}
+
+li {
+	font-weight: bolder;
+}
